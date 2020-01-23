@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ClassTeacher</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../js/enableDragMobile.js"></script>
+</head>
+
+<body  class="">
+    <!-- <body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;"> -->
+    <div class="mainWrapper">
+        <div class="wrapper">
+            <div class="backAudio">
+                <img src="../img/audi1.png" class="playAudio" />
+                <img src="../img/audi2.png" class="stopAudio" />
+            </div>
+            <div id="header">
+                <div class="logo logoWrapper">
+                    <h3 id="headerText"></h3>
+                    <a href="main.html"> <img src="../img/logo.png"> </a>
+                </div>
+            </div>
+        </div>
+        <div id="innerWrapper" class="">
+      <!--       <div class="piller">
+                <img src="../img/piller.png" />
+            </div> -->
+            <h2 id="instruction"></h2>
+            <div class="resultContainer border">
+                <div class="output"></div>
+                <div class="output"></div>
+            </div>
+            <div class="wellDone">
+                <img src="../img/wellDone.png" />
+            </div>
+            <div class="tryAgain">
+                <img src="../img/oops.png" />
+            </div>
+            <div class="dropContainer">
+                <div class="engineContainer">
+                    <img class="animated" src='img/trainEngine.png' />
+                </div>
+                <ul class="unOrderList" id='dropData'>
+                </ul>
+            </div>
+      <!--       <div class="track">
+                <img src='../img/trainTrack.png' />
+            </div> -->
+            <div class="dragContainer">
+                <ul class="unOrderList" id='dragData'>
+                </ul>
+            </div>
+            <div class="buttons">
+                <!--    <button id='check'>
+                  <img src="../img/check.png">
+                </button>
+                <button id='reset'>
+                   <img src="../img/reset.png">
+                </button> -->
+                <button id='next'>
+                    <img src="../img/next.png">
+                </button>
+                <button id='showAnswer'>
+                    <img src="../img/answer.png">
+                </button>
+                <button id='playAgain'>
+                    <img src='../img/playAgain.png'>
+                </button>
+                <button id='level3'>
+                    <img src='../img/reload.png'>
+                </button>
+            </div>
+        </div>
+        <!--innerwrapper end here -->
+    </div>
+    <!--wrapper end here -->
+    <script type="text/javascript" src="data/data.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
